@@ -309,6 +309,9 @@ a{
         opacity: 0;
         animation: fadein 6s ease forwards;
     }
+    .img3{
+        display: none;
+    }
 }
 
 
