@@ -222,6 +222,17 @@ body{
         justify-content: center;
         flex-wrap: wrap;
     }
+	.section{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	p.workp{
+		font-size: 30px;
+	}
+	.joyful-mask p{
+		font-size: 50px;
+	}
 }
 .mask h2{
     top: 50%;
@@ -313,6 +324,15 @@ a{
     .img3{
         display: none;
     }
+	body.joyful{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.joyful-mask p{
+		font-size: 25px;
+	}
 }
 #joyful-img img.joyful-page-img{
 	width: 100vw;
@@ -322,20 +342,14 @@ a{
 	top: 30%;
 	font-size: 50px;
 }
-.joyful-mask p{
-	font-size: 50px;
-}
-.section{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
+
 .youtube img,.ec img,.presentation img{
 	width: calc(100vw/3);
 }
-p.workp{
-	font-size: 30px;
-}
+
+
+
 footer{
     text-align: center;
 	display: flex;
