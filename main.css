@@ -206,6 +206,7 @@ body{
         overflow: hidden;
         transition: 0.5s;
         width: calc(100vw/3);
+		height: auto;
         position: relative;
         opacity: 0;
         animation: fadein 6s ease forwards;
@@ -313,8 +314,28 @@ a{
         display: none;
     }
 }
-
-
+#joyful-img img.joyful-page-img{
+	width: 100vw;
+	height: auto;
+}
+.joyful-mask h1{
+	top: 30%;
+	font-size: 50px;
+}
+.joyful-mask p{
+	font-size: 50px;
+}
+.section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.youtube img,.ec img,.presentation img{
+	width: calc(100vw/3);
+}
+p.workp{
+	font-size: 30px;
+}
 footer{
     text-align: center;
 }
