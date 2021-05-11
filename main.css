@@ -338,5 +338,20 @@ p.workp{
 }
 footer{
     text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer p{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+footer a{
+	color: #000;
+	transition: .2s;
+}
+footer a:hover{
+	font-size: 20px;
+	transition: .2s;
 }
 
