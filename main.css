@@ -205,7 +205,7 @@ body{
         background: #000;
         overflow: hidden;
         transition: 0.5s;
-        width: calc(100vw/3);
+        width: calc(100/3);
 		height: auto;
         position: relative;
         opacity: 0;
