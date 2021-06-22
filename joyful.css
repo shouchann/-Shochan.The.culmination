@@ -9,7 +9,8 @@
 }
 .joyfulimg a img {
     display: block;
-    width: 100%;
+    width: 50%;
+    height: auto;
     transition: 0.5s;
 }
 .joyfulimg a:hover img {
